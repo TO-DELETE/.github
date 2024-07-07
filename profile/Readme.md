@@ -6,27 +6,26 @@
 
 ### Sommaire
 
-- Présentation
-- Contraintes
-- Libertés
-- Méthodologie
-- Contraintes
-- Objectifs
-- Cahier des charges
-  - Analyse des Données
-    1. Acquisition et Préparation des Données
-    2. Analyses Spécifiques
-  - Développement de l'Interface Web avec FastAPI
-    1. Configuration de l'Environnement
-    2. Développement de l'Interface Utilisateur
-    3. Structure de l'Interface Web
-    4. Fonctionnalités Interactives
-    5. Design et Convivialité
-    6. Conclusion
-- Rendu final
-- Conseils
-- Compétences à valider
-- ANNEXES
+- [Présentation](#présentation)
+- [Contraintes](#contraintes)
+- [Libertés](#libertés)
+- [Méthodologie](#méthodologie)
+- [Objectifs](#objectifs)
+- [Cahier des charges](#cahier-des-charges)
+  - [Analyse des Données](#analyse-des-données)
+    1. [Acquisition et Préparation des Données](#acquisition-et-préparation-des-données)
+    2. [Analyses Spécifiques](#analyses-spécifiques)
+  - [Développement de l'Interface Web avec FastAPI](#développement-de-linterface-web-avec-fastapi)
+    1. [Configuration de l'Environnement](#configuration-de-lenvironnement)
+    2. [Développement de l'Interface Utilisateur](#développement-de-linterface-utilisateur)
+    3. [Structure de l'Interface Web](#structure-de-linterface-web)
+    4. [Fonctionnalités Interactives](#fonctionnalités-interactives)
+    5. [Design et Convivialité](#design-et-convivialité)
+    6. [Conclusion](#conclusion)
+- [Rendu final](#rendu-final)
+- [Conseils](#conseils)
+- [Compétences à valider](#compétences-à-valider)
+- [ANNEXES](#annexes)
 
 ### Contexte
 
@@ -41,7 +40,7 @@ résultats de vos données.
 
 L’application respectera la charte graphique du SSA :
 
-- Couleurs : [SSA Colors](https://coolors.co/0b4678-1976d2-e1d7cd-a26769-6d2e46)
+- Couleurs : <a href="https://coolors.co/0b4678-1976d2-e1d7cd-a26769-6d2e46" target="_blank">SSA Colors</a>
 - Typographie : Sans serif
 
 ### Contraintes
@@ -53,7 +52,7 @@ L’application respectera la charte graphique du SSA :
 
 - Vous pouvez proposer l’utilisation de modules Python de votre choix, à condition de les justifier.
 - Vous travaillerez à partir du jeu de données suivant : National data que vous trouverez à la page suivante :
-  [SSA Baby Names Data](https://www.ssa.gov/oact/babynames/limits.html)
+  <a href="https://www.ssa.gov/oact/babynames/limits.html" target="_blank">SSA Baby Names Data</a>
 
 ### Méthodologie
 
@@ -82,7 +81,7 @@ Vous devrez démontrer au client que vous êtes capable de travailler selon des 
 #### Description des fonctionnalités
 
 1. **Analyse des Données**
-   - **Acquisition et Préparation des Données**
+   - **[Acquisition et Préparation des Données](#acquisition-et-préparation-des-données)**
      - Téléchargement et chargement des données :
        - Les données sont téléchargées depuis un fichier “names.zip” et chargées en utilisant Pandas.
      - Exploration initiale : Calcul du nombre de naissances par sexe pour une année donnée et concaténation des données
@@ -93,7 +92,7 @@ Vous devrez démontrer au client que vous êtes capable de travailler selon des 
        vérification de la somme des proportions pour chaque groupe.
      - Extraction des sous-ensembles : Extraction de sous-ensembles de 1000 prénoms les plus populaires par groupe avec
        une fonction spécifique.
-   - **Analyses Spécifiques**
+   - **[Analyses Spécifiques](#analyses-spécifiques)**
      - Tableau pivot par prénom et année : Création d'une table pivot des naissances par prénom et par année.
      - Étude de tendances : Analyse et représentation graphique des tendances de prénoms spécifiques comme "John" et
        "Harry".
@@ -102,27 +101,27 @@ Vous devrez démontrer au client que vous êtes capable de travailler selon des 
      - Diversité géographique : Exploration des différences de popularité des prénoms entre les États.
      - Longueur des prénoms : Analyse des tendances liées à la longueur des prénoms.
      - Noms composés : Étude de l'évolution de l'utilisation des noms composés.
-2. **Développement de l'Interface Web avec FastAPI**
-   - **Configuration de l'Environnement**
+2. **[Développement de l'Interface Web avec FastAPI](#développement-de-linterface-web-avec-fastapi)**
+   - **[Configuration de l'Environnement](#configuration-de-lenvironnement)**
      - Mise en place de FastAPI : Configuration de l'environnement pour créer une API RESTful.
-   - **Développement de l'Interface Utilisateur**
+   - **[Développement de l'Interface Utilisateur](#développement-de-linterface-utilisateur)**
      - Routes pour accès aux données : Création de routes permettant d'accéder aux données et d'afficher des graphiques
        interactifs avec Plotly.
      - Intégration avec PostgreSQL
      - Stockage des données : Utilisation de PostgreSQL pour le stockage des données, permettant une récupération rapide
        et efficace.
-   - **Structure de l'Interface Web**
+   - **[Structure de l'Interface Web](#structure-de-linterface-web)**
      - Conception intuitive : L'interface web est conçue pour offrir une expérience utilisateur intuitive et conviviale.
      - Diagramme UML : Un diagramme UML simple représente les relations entre les années, les prénoms et les naissances.
-   - **Fonctionnalités Interactives**
+   - **[Fonctionnalités Interactives](#fonctionnalités-interactives)**
      - Sélection de prénoms : Permet aux utilisateurs de sélectionner un ou plusieurs prénoms à visualiser.
      - Filtrage par année : Possibilité de filtrer les données par année pour observer les tendances sur des périodes
        spécifiques.
      - Zoom et défilement : Graphiques interactifs avec des options de zoom et de défilement pour une exploration
        détaillée.
-   - **Design et Convivialité**
+   - **[Design et Convivialité](#design-et-convivialité)**
      - Attention à l'esthétique : Conception esthétique et conviviale pour améliorer l'expérience utilisateur.
-   - **Conclusion**
+   - **[Conclusion](#conclusion)**
      - Synthèse des découvertes : Résumé des principales tendances et découvertes de l'analyse des données.
      - Perspectives d'avenir : Discussion sur les perspectives et améliorations futures du projet.
 
@@ -158,18 +157,4 @@ de l'application. Vous aurez 15 minutes pour convaincre le client.
 
 ### Compétences à valider
 
-**RNCP32123BC06 - Architecte BIG DATA et science de données**
-
-- 6.5 : Écrire des algorithmes d’analyse de données
-- 6.8 : Maîtriser l'analyse et la science de données
-
-**RNCP32123BC08 - Développement WEB**
-
-- 8.1 Utiliser les principaux outils de développement web
-- 8.2 Produire une application Orientée Objet
-
-### ANNEXES
-
-- Support Pandas : [pandas.pydata.org](https://pandas.pydata.org/)
-- Support FastAPI : [fastapi.tiangolo.com](https://fastapi.tiangolo.com/)
-- Support Python : [Python-Expert](https://github.com/aahWeb/Python-Expert-/tree/main)
+\*\*RNCP32123BC06 - Architecte BIG DATA et science de
