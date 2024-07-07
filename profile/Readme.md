@@ -80,8 +80,8 @@ Vous devrez démontrer au client que vous êtes capable de travailler selon des 
 
 #### Description des fonctionnalités
 
-1. **Analyse des Données**
-   - **[Acquisition et Préparation des Données](#acquisition-et-préparation-des-données)**
+1. ##### Analyse des Données
+   - ###### Acquisition et Préparation des Données
      - Téléchargement et chargement des données :
        - Les données sont téléchargées depuis un fichier “names.zip” et chargées en utilisant Pandas.
      - Exploration initiale : Calcul du nombre de naissances par sexe pour une année donnée et concaténation des données
