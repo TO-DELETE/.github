@@ -81,7 +81,7 @@ Vous devrez démontrer au client que vous êtes capable de travailler selon des 
 #### Description des fonctionnalités
 
 1. ##### Analyse des Données
-   - ###### Acquisition et Préparation des Données
+   - ##### **Acquisition et Préparation des Données**
      - Téléchargement et chargement des données :
        - Les données sont téléchargées depuis un fichier “names.zip” et chargées en utilisant Pandas.
      - Exploration initiale : Calcul du nombre de naissances par sexe pour une année donnée et concaténation des données
@@ -92,7 +92,7 @@ Vous devrez démontrer au client que vous êtes capable de travailler selon des 
        vérification de la somme des proportions pour chaque groupe.
      - Extraction des sous-ensembles : Extraction de sous-ensembles de 1000 prénoms les plus populaires par groupe avec
        une fonction spécifique.
-   - **[Analyses Spécifiques](#analyses-spécifiques)**
+   - ##### **Analyses Spécifiques**
      - Tableau pivot par prénom et année : Création d'une table pivot des naissances par prénom et par année.
      - Étude de tendances : Analyse et représentation graphique des tendances de prénoms spécifiques comme "John" et
        "Harry".
@@ -101,27 +101,27 @@ Vous devrez démontrer au client que vous êtes capable de travailler selon des 
      - Diversité géographique : Exploration des différences de popularité des prénoms entre les États.
      - Longueur des prénoms : Analyse des tendances liées à la longueur des prénoms.
      - Noms composés : Étude de l'évolution de l'utilisation des noms composés.
-2. **[Développement de l'Interface Web avec FastAPI](#développement-de-linterface-web-avec-fastapi)**
-   - **[Configuration de l'Environnement](#configuration-de-lenvironnement)**
+2. ##### **Développement de l'Interface Web avec FastAPI**
+   - ##### **Configuration de l'Environnement**
      - Mise en place de FastAPI : Configuration de l'environnement pour créer une API RESTful.
-   - **[Développement de l'Interface Utilisateur](#développement-de-linterface-utilisateur)**
+   - ##### **Développement de l'Interface Utilisateur**
      - Routes pour accès aux données : Création de routes permettant d'accéder aux données et d'afficher des graphiques
        interactifs avec Plotly.
      - Intégration avec PostgreSQL
      - Stockage des données : Utilisation de PostgreSQL pour le stockage des données, permettant une récupération rapide
        et efficace.
-   - **[Structure de l'Interface Web](#structure-de-linterface-web)**
+   - ##### **Structure de l'Interface Web**
      - Conception intuitive : L'interface web est conçue pour offrir une expérience utilisateur intuitive et conviviale.
      - Diagramme UML : Un diagramme UML simple représente les relations entre les années, les prénoms et les naissances.
-   - **[Fonctionnalités Interactives](#fonctionnalités-interactives)**
+   - ##### **Fonctionnalités Interactives**
      - Sélection de prénoms : Permet aux utilisateurs de sélectionner un ou plusieurs prénoms à visualiser.
      - Filtrage par année : Possibilité de filtrer les données par année pour observer les tendances sur des périodes
        spécifiques.
      - Zoom et défilement : Graphiques interactifs avec des options de zoom et de défilement pour une exploration
        détaillée.
-   - **[Design et Convivialité](#design-et-convivialité)**
+   - ##### **Design et Convivialité**
      - Attention à l'esthétique : Conception esthétique et conviviale pour améliorer l'expérience utilisateur.
-   - **[Conclusion](#conclusion)**
+   - ##### **Conclusion**
      - Synthèse des découvertes : Résumé des principales tendances et découvertes de l'analyse des données.
      - Perspectives d'avenir : Discussion sur les perspectives et améliorations futures du projet.
 
@@ -154,6 +154,13 @@ de l'application. Vous aurez 15 minutes pour convaincre le client.
 - Documentez soigneusement chaque étape du processus de développement.
 - Assurez-vous de respecter les délais et de communiquer efficacement avec les parties prenantes.
 - Pensez à mesurer les temps de parole pour la présentation orale.
+
+### ANNEXES
+
+- Support Pandas : <a href="https://pandas.pydata.org/" target="_blank">https://pandas.pydata.org/</a>
+- Support FastAPI : <a href="https://fastapi.tiangolo.com/" target="_blank">https://fastapi.tiangolo.com/</a>
+- Support Python : <a href=" https://github.com/aahWeb/Python-Expert-/tree/main" target="_blank">
+  https://github.com/aahWeb/Python-Expert-/tree/main</a>
 
 ### Compétences à valider
 
